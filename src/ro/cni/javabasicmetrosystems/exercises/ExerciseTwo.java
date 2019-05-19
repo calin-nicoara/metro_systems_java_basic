@@ -9,21 +9,25 @@ public class ExerciseTwo {
         printMatrix(matrix, n);
         System.out.println();
 
+        int sum = 0;
         for(int i = 0; i < n; i++) {
             for(int j = 0; j < n; j++) {
                 if(j != i) {
                     matrix[i][j] = 0;
+                } else {
+                    sum += matrix[i][j];
                 }
             }
         }
 
+        System.out.println(sum);
         printMatrix(matrix, n);
     }
 
     public static void exerciseTwo() {
-        final Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         System.out.println("What is the dimension of your matrix?");
-        final int size = scanner.nextInt();
+        int size = scanner.nextInt();
 
         int[][] numbers = new int[size][size];
 

@@ -3,7 +3,7 @@ package ro.cni.javabasicmetrosystems.exercises.bookstore;
 public class Bookstore {
     private Book[] books;
 
-    public Bookstore(final Book[] books) {
+    public Bookstore(Book[] books) {
         this.books = books;
     }
 
@@ -20,7 +20,7 @@ public class Bookstore {
     }
 
     public Book getLargestBook() {
-        if(books.length == 0) {
+        if(books == null || books.length == 0) {
             return null;
         }
 
