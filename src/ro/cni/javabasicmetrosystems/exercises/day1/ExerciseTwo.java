@@ -1,4 +1,4 @@
-package ro.cni.javabasicmetrosystems.exercises;
+package ro.cni.javabasicmetrosystems.exercises.day1;
 
 import java.util.Scanner;
 

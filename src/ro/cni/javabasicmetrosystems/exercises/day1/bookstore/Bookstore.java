@@ -1,4 +1,4 @@
-package ro.cni.javabasicmetrosystems.exercises.bookstore;
+package ro.cni.javabasicmetrosystems.exercises.day1.bookstore;
 
 public class Bookstore {
     private Book[] books;

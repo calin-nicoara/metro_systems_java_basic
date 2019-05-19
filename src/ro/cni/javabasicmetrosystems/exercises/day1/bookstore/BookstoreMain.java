@@ -1,4 +1,4 @@
-package ro.cni.javabasicmetrosystems.exercises.bookstore;
+package ro.cni.javabasicmetrosystems.exercises.day1.bookstore;
 
 import java.util.Scanner;
 
