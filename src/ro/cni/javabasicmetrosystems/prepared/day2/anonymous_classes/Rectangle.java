@@ -1,4 +1,4 @@
-package ro.cni.javabasicmetrosystems.day2.anonymous_classes;
+package ro.cni.javabasicmetrosystems.prepared.day2.anonymous_classes;
 
 public class Rectangle extends Quadrilateral {
 

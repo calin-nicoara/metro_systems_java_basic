@@ -1,4 +1,4 @@
-package ro.cni.javabasicmetrosystems.day3.exceptions;
+package ro.cni.javabasicmetrosystems.prepared.day3.exceptions;
 
 import java.io.IOException;
 import java.sql.SQLException;

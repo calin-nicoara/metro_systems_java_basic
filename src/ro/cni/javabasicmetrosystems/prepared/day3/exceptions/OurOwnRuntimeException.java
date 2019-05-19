@@ -1,4 +1,4 @@
-package ro.cni.javabasicmetrosystems.day3.exceptions;
+package ro.cni.javabasicmetrosystems.prepared.day3.exceptions;
 
 public class OurOwnRuntimeException extends RuntimeException {
 

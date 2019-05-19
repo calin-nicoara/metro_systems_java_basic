@@ -1,7 +1,7 @@
-package ro.cni.javabasicmetrosystems.day2;
+package ro.cni.javabasicmetrosystems.prepared.day2;
 
-import ro.cni.javabasicmetrosystems.day2.oop_principles.CandyFactory;
-import ro.cni.javabasicmetrosystems.day2.oop_principles.CarWithStatic;
+import ro.cni.javabasicmetrosystems.prepared.day2.oop_principles.CandyFactory;
+import ro.cni.javabasicmetrosystems.prepared.day2.oop_principles.CarWithStatic;
 
 public class Day2Main {
     public static void main(String[] args) {

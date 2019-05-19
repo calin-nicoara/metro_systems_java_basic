@@ -1,4 +1,4 @@
-package ro.cni.javabasicmetrosystems.day2;
+package ro.cni.javabasicmetrosystems.prepared.day2;
 
 public class TextBox {
     int width;

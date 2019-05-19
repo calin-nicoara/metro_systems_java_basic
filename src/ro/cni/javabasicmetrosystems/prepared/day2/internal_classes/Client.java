@@ -1,4 +1,4 @@
-package ro.cni.javabasicmetrosystems.day2.internal_classes;
+package ro.cni.javabasicmetrosystems.prepared.day2.internal_classes;
 
 public class Client {
 

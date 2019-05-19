@@ -1,4 +1,4 @@
-package ro.cni.javabasicmetrosystems.day2.oop_principles;
+package ro.cni.javabasicmetrosystems.prepared.day2.oop_principles;
 
 public class CarWithStatic {
     static int numberOfCars = 0;
