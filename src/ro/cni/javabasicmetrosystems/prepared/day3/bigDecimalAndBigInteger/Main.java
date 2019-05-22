@@ -1,4 +1,4 @@
-package ro.cni.javabasicmetrosystems.prepared.day3.BigDecimalAndBigInteger;
+package ro.cni.javabasicmetrosystems.prepared.day3.bigDecimalAndBigInteger;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
