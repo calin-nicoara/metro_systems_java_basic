@@ -1,8 +1,9 @@
 package ro.cni.javabasicmetrosystems.prepared.day3.io;
 
+import java.io.Serializable;
 import java.util.Objects;
 
-public class Client {
+public class Client implements Serializable {
 
     private long id;
     private String name;
