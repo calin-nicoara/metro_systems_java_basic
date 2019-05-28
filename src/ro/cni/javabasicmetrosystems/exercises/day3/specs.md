@@ -25,3 +25,23 @@ See ro.cni.javabasicmetrosystems.prepared.day3.io.ObjectOutputStreamEx for an ex
 
 
 ------------------
+Create a basic calculator using BigDecimal to make the calculations.
+* The user should see a prompt in the console ("Welcome to the calculator! 
+Please insert your calculation")
+* The user should be able to insert an expression as a String. Examples:
+    * 12 + 3 + 4 -> 19
+    * 2 * 2.5 + 3 -> 8
+    
+You can implement the following features in this order (order of difficulty):
+* Implement just + and - (ex: 4 - 5 + 7 -> 6)
+* Add support for * and / (take into consideration the order of operands (* and / before + and -)
+(ex: 4 + 3 * 2 -> 10)
+* Advanced: Add support for parentheses (ex: ( 4 - 5 ) * 2 -> -2 )
+
+Hints: 
+* You can consider that it is mandatory to add a space between operands, like in
+the examples. This will make them easier to separate.
+* For the case of parentheses, it may be useful to create a wrapper class
+called Operation in which you can separate different groups of parentheses. Then
+that class can have a method called getValue that returns BigDecimal to be used
+in further operations. (not a requirement, just a suggestion)
