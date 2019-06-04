@@ -7,10 +7,6 @@ class Counter {
         c++;
     }
 
-    public void decrement() {
-        c--;
-    }
-
     public int value() {
         return c;
     }
