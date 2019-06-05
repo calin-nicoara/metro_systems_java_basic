@@ -4,6 +4,7 @@ import java.time.LocalDate;
 import java.util.Arrays;
 
 public class BuildingMain {
+
     public static void main(String[] args) {
         Building[] buildings = {
                 new Building(4, "Astoria Plus", 90, LocalDate.of(1980, 1, 1)),
@@ -12,6 +13,16 @@ public class BuildingMain {
                 new Building(3, "Tate", 70, LocalDate.of(1980, 1, 1)),
         };
 
+//        showCompare(buildings);
+
+//        BuildingDatabase.writeBuildingsToFile(buildings, "test");
+
+        final Building[] tests = BuildingDatabase.getBuildingsFromFile("test");
+
+        System.out.println(Arrays.asList(tests));
+    }
+
+    private static void showCompare(final Building[] buildings) {
         Arrays.sort(buildings);
         System.out.println(Arrays.toString(buildings));
         System.out.println();
