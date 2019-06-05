@@ -66,6 +66,16 @@ class Building implements Comparable, Serializable {
     }
 
     @Override
+    public String toString() {
+        return "Building{" +
+                "constructionId=" + constructionId +
+                ", name='" + name + '\'' +
+                ", capacity=" + capacity +
+                ", dateOfConstruction=" + dateOfConstruction +
+                '}';
+    }
+
+    @Override
     public int compareTo(final Object o) {
         Building otherBuilding = (Building) o;
         if (this.constructionId > otherBuilding.constructionId) {
