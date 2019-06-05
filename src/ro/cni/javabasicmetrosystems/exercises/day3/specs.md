@@ -1,4 +1,4 @@
-Creati o clasa cu urmatoarea: forma
+Create a class with the following structure
 Class Building
 
     - constructionId: int
