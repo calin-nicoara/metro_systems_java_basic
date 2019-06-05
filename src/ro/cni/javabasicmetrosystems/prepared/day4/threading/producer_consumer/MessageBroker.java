@@ -16,7 +16,6 @@ class MessageBroker {
         message = newMessage;
         empty = false;
 
-        System.out.println("SENT " + newMessage);
         notifyAll();
     }
 
@@ -30,7 +29,6 @@ class MessageBroker {
         empty = true;
         notifyAll();
 
-        System.out.println("RECEIVED " + message);
         return message;
     }
 }
