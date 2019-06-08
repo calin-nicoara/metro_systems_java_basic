@@ -45,6 +45,6 @@ After this is done:
 Then call getNumberOfStudents and see if is what you are expecting.
 - Make the ClassRoom safe for multi threaded operations.
 
-- Add a method called graduate(Student: student). Add a sleep on the Thread that waits for 2 seconds.
-Open a new Thread and call the graduate(...) method from there. In the main Thread you should
-intererupt this thread in 1 seonds.
+- Add a method called graduate(Student: student). Add a sleep in the method that waits for 2 seconds.
+Open a new Thread and call the graduate(...) method from there (lets call it thread2).
+In the main Thread you should wait for one second and then interrupt thread2.
