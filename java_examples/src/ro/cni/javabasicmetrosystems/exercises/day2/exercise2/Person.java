@@ -21,7 +21,7 @@ public abstract class Person {
 
     @Override
     public String toString() {
-        return "Person{" +
+        return "Personv2{" +
                 "name='" + name + '\'' +
                 ", address='" + address + '\'' +
                 '}';

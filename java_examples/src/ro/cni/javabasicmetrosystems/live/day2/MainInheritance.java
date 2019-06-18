@@ -4,13 +4,13 @@ import ro.cni.javabasicmetrosystems.live.day2.person.Person;
 
 public class MainInheritance extends Object{
     public static void main(String[] args) {
-//        Person person = new Person("Ion", "1231231", "Bucuresti");
+//        Personv2 person = new Personv2("Ion", "1231231", "Bucuresti");
 
         Employee employee = new Employee("Ion", "1231231", "Bucuresti",
                 10.0, 21);
 
 
-//        Person person1 = employee;
+//        Personv2 person1 = employee;
 //
 //        if(person1 instanceof Employee) {
 //            Employee employee2 = (Employee) person1;

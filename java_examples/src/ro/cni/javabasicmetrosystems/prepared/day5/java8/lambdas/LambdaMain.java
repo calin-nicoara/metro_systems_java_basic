@@ -12,7 +12,6 @@ public class LambdaMain {
 
         consumeMe(number -> acceptAndShout(number));
         consumeMe(LambdaMain::acceptAndShout);
-
     }
 
     public static void consumeMe(Consumer<Integer> consumer) {

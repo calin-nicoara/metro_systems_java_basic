@@ -23,7 +23,7 @@ public class StreamMain {
 
 //        range();
 
-        Stream.of(1, 2, 2).forEach(s -> System.out.println(s));
+//        Stream.of(1, 2, 2).forEach(s -> System.out.println(s));
     }
 
     private static void range() {
@@ -110,7 +110,6 @@ public class StreamMain {
         List<Integer> numbers = Arrays.asList(1, 2, 3, 4, 5, 6);
 
         numbers.stream()
-                .parallel()
                 .filter(number -> number % 2 == 0)
                 .map(BigDecimal::valueOf)
                 .peek(System.out::println)
